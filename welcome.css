@@ -1,0 +1,73 @@
+
+
+.welcome {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #330BA4 17.91%, #09A551 55.57%, #000 96.88%);
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome > h1 {
+    color: #FFF;
+    font-family: jsMath-cmr10;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 500;
+    width: 608px;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    left: 366px;
+
+}
+
+.login-register-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 50px;
+  left: 450px;
+  top: 260px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.login-register-container > input {
+  height: 20px;
+  width: 80%;
+  border: 1px solid gray;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.login-register-container > button {
+  padding: 5px 20px;
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sign-in-register-button {
+  background: linear-gradient(122.19deg, #da2079 1.89%, #2a00d5 113.56%);
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: jsMath-cmr10;
+  font-weight: normal;
+  color: white;
+
+  border-radius: 10px;
+border: 2px solid #000;
+background: #0B43A4;
+}
+
+.create-account-button {
+  background: none;
+  margin-top: 10px;
+}
